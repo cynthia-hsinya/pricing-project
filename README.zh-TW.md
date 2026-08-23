@@ -47,7 +47,7 @@ Recommendation          → 幫助決策者做決策
 
 專案採用**兩階段需求模型**，這是整個專案最重要的方法論演進。
 
-### 第一階段 — Constant Elasticity Model（Notebook 1 / Phase 1-2）
+### 第一階段 — Constant Elasticity Model（Notebook 1）
 
 ```
 Q(P) = Q0 × (P / P0)^elasticity
@@ -55,7 +55,7 @@ Q(P) = Q0 × (P / P0)^elasticity
 
 用於「我們自己」的最適定價分析，不考慮競爭。這是一個乘法可分離（multiplicatively separable）的模型。
 
-### 第二階段 — 線性（Bertrand-style）競爭模型（Notebook 2 / Phase 5-6）
+### 第二階段 — 線性（Bertrand-style）競爭模型（Notebook 2）
 
 在開發 Strategy Simulator 時，我們發現第一階段模型有一個**結構性限制**：不論怎麼加入競品價格的乘法項，最佳自身價格數學上都會獨立於競品價格——也就是說，這種模型**天生無法表現「價格戰」**。
 
