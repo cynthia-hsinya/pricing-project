@@ -47,7 +47,7 @@ Competitor data is synthetically generated (see `scripts/generate_competitor_dat
 
 The project uses a **two-stage demand modeling approach** — the most important methodological progression in this project.
 
-### Stage 1 — Constant Elasticity Model (Notebook 1 / Phase 1-2)
+### Stage 1 — Constant Elasticity Model (Notebook 1)
 
 ```
 Q(P) = Q0 × (P / P0)^elasticity
@@ -55,7 +55,7 @@ Q(P) = Q0 × (P / P0)^elasticity
 
 Used for our own optimal pricing analysis, without competition. This is a multiplicatively separable functional form.
 
-### Stage 2 — Linear (Bertrand-style) Competitive Model (Notebook 2 / Phase 5-6)
+### Stage 2 — Linear (Bertrand-style) Competitive Model (Notebook 2)
 
 While building the Strategy Simulator, we discovered a **structural limitation** in the Stage 1 model: no matter how a competitor-price term is multiplied in, the profit-maximizing own price is mathematically independent of the competitor's price — this functional form **cannot represent price-war dynamics by construction**.
 
