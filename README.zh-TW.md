@@ -39,7 +39,7 @@ Recommendation          → 幫助決策者做決策
 | 競品 | Anker（高價品牌）、Xiaomi、ROMOSS、PhoneMax（中低價品牌）|
 | 競品價格資料 | `data/competitor_prices.csv`，60 天模擬歷史資料，內建 3 次模擬促銷事件，用於驗證 Price Alert 機制 |
 
-競品資料為程式模擬產生（見 `scripts/generate_competitor_data.py`），非真實爬蟲結果。專案刻意採用「先驗證方法論、資料源可替換」的設計——核心價值是「價格情報 → 商業決策」的分析框架，而不是「成功爬到多少網站」。
+競品資料為程式模擬產生（見 `scripts/generate_competitor_data.py`），非真實爬蟲結果。專案刻意採用「先驗證方法論、資料源可替換」的設計，著重於「由價格情報到商業決策」的分析框架，而非爬蟲能力。
 
 ---
 
@@ -47,7 +47,7 @@ Recommendation          → 幫助決策者做決策
 
 專案採用**兩階段需求模型**，這是整個專案最重要的方法論演進。
 
-### 第一階段 — Constant Elasticity Model（Notebook 1 / Phase 1-2）
+### 第一階段 — Constant Elasticity Model（Notebook 1）
 
 ```
 Q(P) = Q0 × (P / P0)^elasticity
@@ -55,7 +55,7 @@ Q(P) = Q0 × (P / P0)^elasticity
 
 用於「我們自己」的最適定價分析，不考慮競爭。這是一個乘法可分離（multiplicatively separable）的模型。
 
-### 第二階段 — 線性（Bertrand-style）競爭模型（Notebook 2 / Phase 5-6）
+### 第二階段 — 線性（Bertrand-style）競爭模型（Notebook 2）
 
 在開發 Strategy Simulator 時，我們發現第一階段模型有一個**結構性限制**：不論怎麼加入競品價格的乘法項，最佳自身價格數學上都會獨立於競品價格——也就是說，這種模型**天生無法表現「價格戰」**。
 
