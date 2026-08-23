@@ -167,4 +167,4 @@ pricing-project/
 
 ## Author's Note
 
-This project is a portfolio piece by an Economics undergraduate at National Taiwan University, demonstrating the application of demand theory (elasticity, marginal analysis) to business pricing decisions. Developed with AI pair-programming assistance (Claude) for coding and debugging; methodology design, assumption validation, and business interpretation were author-led.
+This project is a portfolio piece, demonstrating the application of demand theory (elasticity, marginal analysis) to business pricing decisions. Developed with AI pair-programming assistance (Claude) for coding and debugging; methodology design, assumption validation, and business interpretation were author-led.
