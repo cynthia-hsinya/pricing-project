@@ -39,7 +39,7 @@ Recommendation          → 幫助決策者做決策
 | 競品 | Anker（高價品牌）、Xiaomi、ROMOSS、PhoneMax（中低價品牌）|
 | 競品價格資料 | `data/competitor_prices.csv`，60 天模擬歷史資料，內建 3 次模擬促銷事件，用於驗證 Price Alert 機制 |
 
-競品資料為程式模擬產生（見 `scripts/generate_competitor_data.py`），非真實爬蟲結果。專案刻意採用「先驗證方法論、資料源可替換」的設計——核心價值是「價格情報 → 商業決策」的分析框架，而不是「成功爬到多少網站」。
+競品資料為程式模擬產生（見 `scripts/generate_competitor_data.py`），非真實爬蟲結果。專案刻意採用「先驗證方法論、資料源可替換」的設計，著重於「價格情報 → 商業決策」的分析框架，而非爬蟲能力。
 
 ---
 
